@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "tf-serving-example"
+version = "0.1.0"
+description = "simple tensorflow model serving server example / walkthrough"
+authors = ["isaac-chasse <ike.chasse@gmail.com>"]
+readme = "README.md"
+packages = [{include = "tf_serving_example"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
